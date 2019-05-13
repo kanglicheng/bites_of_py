@@ -18,7 +18,7 @@ def get_all_jeeps(cars=cars):
 def get_first_model_each_manufacturer(cars=cars):
     """return a list of matching models (original ordering)"""
     first_models = []
-    for v in cars.values():
+    for v in cars.values():N˜
         first_models.append(v[0])
     return first_models
 
